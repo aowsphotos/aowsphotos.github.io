@@ -1,0 +1,26 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        {{ site.title }} <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>🐻 🌲 🌲 🌲 {{ site.description }} 🌲 🌲 🌲 🐻</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/simplelightbox/simple-lightbox.min.js"></script>
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+	});
+</script>
