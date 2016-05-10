@@ -163,8 +163,14 @@
     font-size: 20px;
 }
 
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .post-list {
-    margin-left: 0;
+  max-width: 800px;
+  margin: 0 auto;
     list-style: none;
 
     > li {

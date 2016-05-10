@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Moving..."
+date:   2016-05-09 13:22:12 -0700
+categories:
+---
+I'm in the process of moving this site from Medium to my own thing. Things will be broken for a couple of days and this post will be removed. It's just a FYI :)
