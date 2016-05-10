@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Sleeping Giant"
-date:   2016-05-10 13:22:12 -0700
+date:   2015-12-13 14:22:12 -0700
 categories:
 ---
 
-![Latourell Falls](20160510_sleeping.jpeg)
+![Latourell Falls](/images/blog/20160510_sleeping.jpeg)
 
 [Latourell Falls](https://goo.gl/maps/ocNAnL4rTLU2), Columbia Gorge, Oregon
 
