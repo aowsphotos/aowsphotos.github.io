@@ -102,3 +102,23 @@ $on-laptop:        $content-width;
 .align-center {
   text-align: center;
 }
+
+hr {
+  margin: 50px auto;
+  width: 80%;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.post {
+  img {
+    &.one {
+    }
+    &.two {
+      width: 49%;
+      margin: 0 auto;
+    }
+  }
+}
