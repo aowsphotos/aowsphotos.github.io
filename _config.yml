@@ -17,4 +17,4 @@ ig_username: aows
 
 # Build settings
 markdown: kramdown
-permalink: /:year:month/:title.html
+permalink: /blog/:year:month/:title.html
