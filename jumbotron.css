@@ -40,6 +40,9 @@ body {
   .container {
     max-width: 730px;
   }
+  .carousel {
+    width: 700px;
+  }
 }
 .container-narrow > hr {
   margin: 30px 0;
@@ -81,6 +84,9 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+  .carousel {
+    width: 500px;
+  }
 }
 
 
@@ -95,6 +101,5 @@ body {
 }
 
 .carousel {
-  width: 700px;
   margin: 20px auto;
 }
