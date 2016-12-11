@@ -124,17 +124,18 @@ body {
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  .masthead {
+  /*.masthead {
     position: fixed;
     top: 0;
-  }
+  }*/
+  /*
   .mastfoot {
     position: fixed;
     bottom: 0;
-  }
+  }*/
   /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
   }
   /* Handle the widths */
   .masthead,
@@ -156,7 +157,7 @@ body {
 /* carousel */
 .carousel {
   width: 500px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* about */
@@ -164,4 +165,10 @@ body {
   text-align: left;
   font-size: 18px;
   line-height: 1.5;
+  padding: 10px;
+}
+
+.about .yo {
+  width: 50%;
+  margin: 20px auto;
 }
