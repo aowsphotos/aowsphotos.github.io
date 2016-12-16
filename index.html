@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css">
-    <link rel="stylesheet" href="jumbotron.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="https://cdn-images-1.medium.com/max/92/1*luRzWzqX2TQGNqKHSxM5cA.png">
+
     <title>aows - photography and video</title>
   </head>
 
@@ -39,7 +40,7 @@
 
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="images/1.jpg">
+            <a href="images/1.jpg" class="gallery_img"><img src="images/1.jpg"></a>
           </div>
           <div class="item">
             <img src="images/2.jpg">
@@ -106,12 +107,48 @@
       </div>
 
       <div>
-        <h3>about me</h3>
         <p class="lead">I'm a photographer based in Portland, OR although born in Northwestern Spain.</p>
         <h3>want my photos? they are free!</h3>
         <p class="lead">Do whatever you want with them. You can find some on <a href="http://unsplash.com/@aows">my Unsplash account</a> but if you want any other you've seen on social media, just <a href="mailto:hi@aows.co">drop me an email</a> and I'll send it to you.</p>
         <h3>want me to take your pictures?</h3>
         <p class="lead">I'm open to collaborations and can be hired for shoots: <a href="mailto:hi@aows.co">send me an email</a>.</p>
+      </div>
+
+      <div class="divide">
+        <h2>as seen on 📺 📻 📰 🖥</h2>
+        <p>&nbsp;</p>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/oregonian.png" />
+              <div class="caption">
+                <h3>The Oregonian</h3>
+                <p>Featured on "14 Instagram accounts that will inspire you to explore Oregon"</p>
+                <p><a href="http://www.oregonlive.com/trending/2016/12/instagram_accounts_that_will_i.html#8" class="btn btn-default" role="button">read &raquo;</a></p>
+              </div>
+            </div>
+          </div><!-- !col-sm-6 col-md-4 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/indie_feed.png" />
+              <div class="caption">
+                <h3>Indie Feed</h3>
+                <p>Cover of the December 2016 Indie Feed playlist and of October 2016 Weekly Update.</p>
+                <p><a href="https://www.youtube.com/watch?v=bdq26Zn_nMk" class="btn btn-default" role="button">December 2016 &raquo;</a> <a href="https://www.youtube.com/watch?v=232TErwSGBE" class="btn btn-default" role="button">Oct Weekly &raquo;</a></p>
+              </div>
+            </div>
+          </div> <!-- !col-sm-6 col-md-4 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/editors.png" />
+              <div class="caption">
+                <h3>500px</h3>
+                <p>Featured on 500px Editor's Choice</p>
+                <p><a href="https://500px.com/photo/186347073/winter-wonderland-by-adrian-otero-vila" class="btn btn-default" role="button">go &raquo;</a></p>
+              </div>
+            </div>
+          </div><!-- !col-sm-6 col-md-4 -->
+        </div><!-- !row -->
       </div>
 
       <footer class="footer">

@@ -84,9 +84,6 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-  .carousel {
-    width: 500px;
-  }
 }
 
 
@@ -102,4 +99,10 @@ body {
 
 .carousel {
   margin: 20px auto;
+}
+
+.divide {
+  margin-top: 80px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 60px;
 }
